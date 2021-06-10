@@ -1,14 +1,14 @@
 const direccion = {
-  street: '9 de Julio',
-  city: 'Buenos Aires',
-  country: 'Argentina',
+	street: '9 de Julio',
+	city: 'Buenos Aires',
+	country: 'Argentina',
 };
 
 // const street = direccion.street;
 // const city = direccion.city;
 // const country = direccion.country;
 
-// console.log(direccion.street, direccion.city, direccion.country);
+//console.log(direccion.street, direccion.city, direccion.country);
 
 // ************************************************************************************************ //
 

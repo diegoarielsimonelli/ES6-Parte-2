@@ -1,6 +1,6 @@
 // --> Callbacks
 
-// JavaScript soporta las funciones de primera clase (high order functions - hof),
+// Las funciones en Js son consideradas individuos de primera clase (high order functions - hof),
 // por lo que pasar funciones como parámetros de otras funciones es algo muy corriente
 
 //Las funciones conocidas como callback, son funciones que se pasan como parámetros de otras funciones y que se ejecutan dentro de éstas.
@@ -8,20 +8,20 @@
 // Array Methods
 
 const items = [
-  { nombre: 'Bicicleta', precio: 500 },
-  { nombre: 'Monitor', precio: 300 },
-  { nombre: 'Celular', precio: 80 },
-  { nombre: 'Teclado', precio: 50 },
-  { nombre: 'Mouse', precio: 30 },
-  { nombre: 'Headset', precio: 20 },
-  { nombre: 'Laptop', precio: 700 },
+	{ nombre: 'Bicicleta', precio: 500 },
+	{ nombre: 'Monitor', precio: 300 },
+	{ nombre: 'Celular', precio: 80 },
+	{ nombre: 'Teclado', precio: 50 },
+	{ nombre: 'Mouse', precio: 30 },
+	{ nombre: 'Headset', precio: 100 },
+	{ nombre: 'Laptop', precio: 700 },
 ];
 
 // --> Filter
-// Retorna True o False
+// Retorna son los valores filtrados a partir de la condicion
 
 // let filteredItems = items.filter(function (x) {
-//   return x.precio <= 100;
+// 	return x.precio < 100;
 // });
 
 // console.log(filteredItems);
@@ -39,8 +39,8 @@ const items = [
 // Toma un array y devuelve uno nuevo
 // Es muy conveniente cuando tenemos un objeto y queremos obtener una de sus propiedades y devolver un nuevo array
 
-// const itemsNames = items.map((x) => {
-//   return x.nombre;
+// const itemsNames = items.map((item) => {
+// 	return item.nombre + ' - ' + item.precio;
 // });
 
 // console.log(itemsNames);

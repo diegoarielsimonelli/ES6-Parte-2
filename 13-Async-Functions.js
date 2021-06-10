@@ -5,13 +5,13 @@
 // Y el segundo parametro son los milisegundos que va a tardar en llamarse la
 // funcion que pasamos como primer parametro
 
-// const asyncFuncion = () => {
-//   setTimeout(function () {
-//     console.log('Hola');
-//   }, 3000);
-// };
+const asyncFuncion = () => {
+	setTimeout(function () {
+		console.log('Hola');
+	}, 3000);
+};
 
-// asyncFuncion();
+asyncFuncion();
 
 // ************************************************************************************************ //
 
@@ -21,9 +21,9 @@
 // Y el segundo parametro es cada cuantos segundos se ejecutará esa función
 
 const intervalFunction = () => {
-  setInterval(function () {
-    console.log('Hello World');
-  }, 1000);
+	setInterval(function () {
+		console.log('Hello World');
+	}, 1000);
 };
 
 intervalFunction();
