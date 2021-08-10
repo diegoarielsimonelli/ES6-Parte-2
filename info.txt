@@ -4,8 +4,3 @@ https://youtu.be/NCwa_xi0Uuc
 ESTE ES EL JAVASCRIPT QUE NECESITAS PARA APRENDER REACT
 https://youtu.be/sKsNO-quEAw
 
-¿Qué es el hoisting?
-https://anamartinezaguilar.medium.com/qu%C3%A9-es-el-hoisting-327870f67b36
-
-Var, Let, and Const – What's the Difference?
-https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/

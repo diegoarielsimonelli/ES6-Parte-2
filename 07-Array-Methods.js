@@ -15,14 +15,13 @@ const items = [
 	{ nombre: 'Mouse', precio: 30 },
 	{ nombre: 'Headset', precio: 100 },
 	{ nombre: 'Laptop', precio: 700 },
+	{ nombre: 'Laptop', precio: 200 },
 ];
 
 // --> Filter
 // Retorna son los valores filtrados a partir de la condicion
 
-// let filteredItems = items.filter(function (x) {
-// 	return x.precio < 100;
-// });
+// let filteredItems = items.filter((item) => item.nombre === 'Laptop');
 
 // console.log(filteredItems);
 
@@ -77,16 +76,16 @@ const items = [
 // --> Some
 // Some devuelve un booleano TRUE o FALSE
 
-// const someItem = items.some(function (item) {
-//   return item.nombre === 'Teclado'; // Esto nos va a dar TRUE
-// });
+const someItem = items.some(function (item) {
+	return item.nombre === 'Teclado'; // Esto nos va a dar TRUE
+});
 
-// console.log(someItem);
+console.log(someItem);
 
-// Ejemplo
+// Ejemplo;
 
 // const itemBarato = items.some((item) => {
-//   return item.precio < 100; // Esto nos va a dar FALSE
+// 	return item.precio < 100; // Esto nos va a dar FALSE
 // });
 
 // console.log(itemBarato);
@@ -97,7 +96,7 @@ const items = [
 // Devuelve TRUE o FALSE siempre y cuando la condicion se cumpla para todos los elementos dentro del array
 
 // const itemBarato = items.every((item) => {
-//   return item.precio < 800; // Esto nos va a dar TRUE porque todos los elementos tienen un precio < a 800
+// 	return item.precio < 900; // Esto nos va a dar TRUE porque todos los elementos tienen un precio < a 800
 // });
 
 // console.log(itemBarato);

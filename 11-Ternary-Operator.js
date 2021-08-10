@@ -17,7 +17,7 @@
 
 // condition ? expression_1 : expression_2; // TRUE : FALSE
 
-let age = 14;
-let canDrive = age > 16 ? 'yes' : 'no';
+let age = 18;
+let canDrive = age > 16 ? 'expression_1' : 'expression_2';
 
 console.log(canDrive);

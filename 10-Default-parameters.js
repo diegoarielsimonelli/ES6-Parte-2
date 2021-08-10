@@ -28,4 +28,4 @@ const registrarUsuario = (
 Si necesitamos contactarte lo haremos al telefono ${telephone}`;
 };
 
-console.log(registrarUsuario(undefined, 'Perez', 20, 'Mar del Plata'));
+console.log(registrarUsuario(null, 'Perez', 20, 'Mar del Plata', '1560454545'));

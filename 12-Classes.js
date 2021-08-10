@@ -1,4 +1,4 @@
-// Object-oriented programming (OOO - Programación Orientada a Objetos)
+// Object-oriented programming (OOP - Programación Orientada a Objetos)
 
 // La programación Orientada a objetos se define como un paradigma de la programación,
 // una manera de programar específica, donde se organiza el código en unidades denominadas clases,
@@ -8,13 +8,6 @@
 // Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje.
 // Cada clase es un modelo que define un conjunto de variables y métodos apropiados para operar con dichos datos.
 // Cada objeto creado a partir de la clase se denomina instancia de la clase.
-
-// const person = {
-// 	name: 'Francesca',
-// 	walk() {
-// 		console.log('walk method');
-// 	},
-// };
 
 // Pascal convention - La primera letra en mayuscula
 // Costructor puede tener parametros, es una palabra reservada
@@ -37,12 +30,12 @@ class Person {
 // Al momento de instanciar un objeto el metodo constructor() es llamado
 
 // const persona = new Person('Francesca', 25);
-// // const persona1 = new Person('Francesca');
-// // const persona2 = new Person('Francesca');
-// // const persona2 = new Person('Francesca');
+// const persona1 = new Person('Daniel', 36);
+// const persona3 = new Person('Francesca');
+// const persona4 = new Person('Francesca');
 
-// persona.walk();
-// console.log(persona.name, persona.age);
+// console.log(persona1.name, persona1.age);
+// persona1.walk();
 
 // ************************************************************************************************ //
 
@@ -60,7 +53,7 @@ class Teacher extends Person {
 	}
 }
 
-const teacher = new Teacher('Daniel', 'Backend Dev');
+const teacher = new Teacher('Daniel', 'FE Dev');
 console.log(teacher.name);
 
 teacher.teach();

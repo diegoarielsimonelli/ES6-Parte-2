@@ -1,7 +1,7 @@
 // const person = {
-//   talk() {
-//     console.log('this', this);
-//   },
+// 	talk() {
+// 		console.log('this', this);
+// 	},
 // };
 
 // person.talk();
@@ -14,11 +14,11 @@
 // }, 1000);
 
 // const person = {
-//   talk() {
-//     setTimeout(function () {
-//       console.log('this', this);
-//     }, 1000);
-//   },
+// 	talk() {
+// 		setTimeout(function () {
+// 			console.log('this', this);
+// 		}, 1000);
+// 	},
 // };
 
 // Un callback es una funcion que se pasa por parametro
@@ -48,42 +48,42 @@
 // Ahora podemos utilizar las funciones arrow, ya que estas no sobreescriben el
 // valor de 'this'
 
-const person = {
-	talk() {
-		setTimeout(() => {
-			console.log('this', this);
-		}, 1000);
-	},
-};
+// const person = {
+// 	talk() {
+// 		setTimeout(() => {
+// 			console.log('this', this);
+// 		}, 1000);
+// 	},
+// };
 
-person.talk();
-
-// ******************
-
-var persona = {
-	name: 'Daniel',
-	foo: function () {
-		// var self = this;
-		setTimeout(
-			function () {
-				console.log('this', this.name);
-			}.bind(this),
-			2000
-		);
-	},
-};
-
-persona.foo();
+// person.talk();
 
 // ******************
 
-var persona = {
-	name: 'Daniel',
-	foo: function () {
-		setTimeout(() => {
-			console.log('this', this.name);
-		}, 2000);
-	},
-};
+// var persona = {
+// 	name: 'Daniel',
+// 	foo: function () {
+// 		// var self = this;
+// 		setTimeout(
+// 			function () {
+// 				console.log('this', this.name);
+// 			}.bind(this),
+// 			2000
+// 		);
+// 	},
+// };
 
-persona.foo();
+// persona.foo();
+
+// ******************
+
+// var persona = {
+// 	name: 'Daniel',
+// 	foo: function () {
+// 		setTimeout(() => {
+// 			console.log('this', this.name);
+// 		}, 2000);
+// 	},
+// };
+
+// persona.foo();
